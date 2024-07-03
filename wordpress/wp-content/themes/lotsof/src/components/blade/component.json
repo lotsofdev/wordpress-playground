@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "name": "blade",
+  "description": "Simple blade engine component",
+  "files": ["blade.php"],
+  "dependencies": {
+    "@lotsof/components/config": "^1.0.0"
+  },
+  "composerJson": {
+    "require": {
+      "eftec/bladeone": "^4.13"
+    }
+  }
+}
