@@ -8,5 +8,10 @@ $blade = new \eftec\bladeone\BladeOne($views, $cache, \eftec\bladeone\BladeOne::
 function render($view, $data = [])
 {
     global $blade;
-    return $blade->run($view, (array) $data);
+
+    if (method_exists($data, 'toObject')) {
+        $data = $data->toObject();
+    }
+
+    return $blade->run(str_replace('/', '.', $view), (array) $data);
 }

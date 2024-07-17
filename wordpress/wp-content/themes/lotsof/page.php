@@ -1,10 +1,11 @@
 <?php get_header(); ?>
 
-<main class="main">
+<main class="layout-main">
 
 	<?php
 
-	require __DIR__ . '/src/components/card/card1.php';
+	require __DIR__ . '/src/components/card/card.php';
+	require __DIR__ . '/src/components/typo/typo.php';
 
 	?>
 

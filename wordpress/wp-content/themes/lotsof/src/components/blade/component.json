@@ -1,11 +1,8 @@
 {
   "version": "1.0.0",
-  "name": "blade",
+  "name": "lotsof/blade",
   "description": "Simple blade engine component",
-  "files": ["blade.php"],
-  "dependencies": {
-    "@lotsof/components/config": "^1.0.0"
-  },
+  "files": ["blade.php", ".gitignore", "cache/.gitkeep"],
   "composerJson": {
     "require": {
       "eftec/bladeone": "^4.13"
