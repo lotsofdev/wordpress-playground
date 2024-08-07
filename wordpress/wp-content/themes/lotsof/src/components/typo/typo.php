@@ -45,6 +45,6 @@ $typo = [
     "blockquote" => $faker->paragraphs(random_int(1, 2), true),
 ];
 
-print \Components\Blade\render('typo.typo', $typo);
+print \Components\Renderer\render('typo.typo', $typo);
 
 

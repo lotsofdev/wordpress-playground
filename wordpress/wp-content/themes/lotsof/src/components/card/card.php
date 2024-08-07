@@ -14,6 +14,6 @@ $body = \Lotsof\Types\Body::mock();
 $card = new \Components\Card\Card($body, $image);
 
 
-print \Components\Blade\render('card.card', $card->toObject());
+print \Components\Renderer\render('card.card', $card->toObject());
 
 
