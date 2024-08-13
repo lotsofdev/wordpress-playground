@@ -2,12 +2,12 @@
 
 namespace Components\Card;
 
-class Card extends \Lotsof\Types\Base
+class Card extends \Lotsof\Types\BaseType
 {
-    protected \Lotsof\Types\Body $body;
-    protected \Lotsof\Types\Image $image;
+    protected \Lotsof\Types\BodyType $body;
+    protected \Lotsof\Types\ImageType $image;
 
-    public function __construct(\Lotsof\Types\Body $body = null, \Lotsof\Types\Image $image = null)
+    public function __construct(\Lotsof\Types\BodyType $body = null, \Lotsof\Types\ImageType $image = null)
     {
         $this->body = $body;
         $this->image = $image;
