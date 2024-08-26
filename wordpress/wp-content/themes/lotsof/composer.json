@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "lotsof/types": "^1.0",
+    "lotsof/types": "^1.0.0@alpha",
     "eftec/bladeone": "^4.13"
   }
 }

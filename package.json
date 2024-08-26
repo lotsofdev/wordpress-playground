@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "install": "npm run install.env && npm run install.htaccess && npm run install.wordpress && npm run install.theme",
+    "i": "npm run install.env && npm run install.htaccess && npm run install.wordpress && npm run install.theme",
     "install.env": "cp .env.example .env && cp wordpress/.env.example wordpress/.env",
     "install.htaccess": "cp wordpress/.htaccess.example wordpress/.htaccess",
     "install.theme": "cd wordpress/wp-content/themes/lotsof && npm i",

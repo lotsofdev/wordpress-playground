@@ -20,7 +20,7 @@
     "vite": "^5.0.11"
   },
   "dependencies": {
-    "@lotsof/sugar": "^1.0.0",
-    "@lotsof/sugarcss": "^1.0.0"
+    "@lotsof/sugar": "^1.0.0-alpha",
+    "@lotsof/sugarcss": "^1.0.0-alpha"
   }
 }
